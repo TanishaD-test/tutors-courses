@@ -14,7 +14,7 @@ RSpec.describe "Api::V1::Courses", type: :request do
 			
       json = JSON.parse(response.body)
       expect(response.status).to eq(200)
-			expect(json.first['name']).to eq("Ruby on Rails")
+      expect(json.first['name']).to eq("Ruby on Rails")
       expect(json.first['tutors'].first["name"]).to eq("Sample Tutor")
     end
   end
