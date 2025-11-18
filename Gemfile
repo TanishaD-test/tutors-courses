@@ -44,7 +44,7 @@ group :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'database_cleaner-active_record' # optional but recommended for cleaning DB between tests
-  gem 'shoulda-matchers', '~> 5.0'              # optional, for model validations testing
+  gem 'shoulda-matchers', '~> 6.5'              # optional, for model validations testing
 end
 
 
